@@ -3,6 +3,6 @@ int main()
 {
     int n;
     scanf("%d",&n);
-    int t=n*(n-1)/2;
-    printf("%d",t);
+    int sum=(n-1)*n/2;
+    printf("%d",sum);
 }
